@@ -1,0 +1,29 @@
+# Derleme ve Çıktı Dizinleri (Build outputs)
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+
+# Kullanıcıya Özel ve Geçici Dosyalar
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.log
+
+# Paket ve Bağımlılıklar
+packages/
+*.nuget.props
+*.nuget.targets
+
+# IDE / Editör
+.vs/
+.vscode/
+.idea/
+*.swp
+
+# Agent Files
+.agents/
+
+# İşletim Sistemi
+.DS_Store
+Thumbs.db
