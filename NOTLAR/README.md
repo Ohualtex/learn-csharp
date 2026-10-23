@@ -9,10 +9,15 @@ Alıştırmalar için → [`../ALISTIRMALAR/`](../ALISTIRMALAR/)
 
 ## 🗂️ Konu Başlıkları
 
-*(Konular eklendikçe adım adım bağlantılarıyla birlikte buraya işlenecektir.)*
+0. [C# 101 (Programlamaya Giriş)](00_csharp_101_temeller.md)
 
 ---
 
 ## 🔑 Hızlı Tekrar: Altın Ezber Cümleleri (Kopya Kağıdı)
 
-*(İşlenen her konunun en kritik kuralı ve sınav/mülakat kurtaran ezber cümlesi buraya eklenecektir.)*
+- **Yazdırma ve Kaçış:** "`Write` yan yana yazar, `WriteLine` yazıp alt satıra geçer. `$` ile süslü parantez içine değişken gömülür, `@` ile ters slash kaçışları iptal edilir."
+- **Operatörler & Bölme:** "`=` atama yapar, `==` eşit mi diye sorar. `int / int` tam sayı verir; ondalık istiyorsan en az birini `double` yap!"
+- **if-else:** "if'in sonuna noktalı virgül konmaz. Zincirdeki ilk doğru şart çalışır, gerisi atlanır."
+- **Console.ReadLine:** "`Console.ReadLine` her zaman string okur. Sayı istiyorsan `Parse` et, program patlamasın istiyorsan `TryParse` kullan!"
+- **Metotlar:** "`void` iş yapar susar, `return` değeri hesaplar ve sana fırlatır."
+

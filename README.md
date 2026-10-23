@@ -6,13 +6,14 @@ C# ve Nesne Yönelimli Programlama (OOP) temellerini örnek kod, konu notları v
 
 | Dosya / Klasör | Açıklama |
 | --- | --- |
-| `NOTLAR/` | Konu anlatımı: kavram + tuzak + ezber cümleler |
+| [`NOTLAR/`](NOTLAR/README.md) | Konu anlatımı: kavram + tuzak + ezber cümleler |
 | `ALISTIRMALAR/` | Karışık sorular; her sorunun cevabı hemen altında gizli |
 | `ORNEKLER/` | Günlük hayattan, çalışan tam örnek programlar |
 
 ## Konular
 
-*(Konular eklendikçe adım adım buraya işlenecektir.)*
+0. **C# 101 (Programlamaya Giriş)** ([Notlar](NOTLAR/00_csharp_101_temeller.md))
+
 
 ## Lisans
 
