@@ -11,6 +11,7 @@ Alıştırmalar için → [`../ALISTIRMALAR/`](../ALISTIRMALAR/)
 
 0. [C# 101 (Programlamaya Giriş)](00_csharp_101_temeller.md)
 1. [Akış Kontrolü, Pattern Matching ve Döngüler](01_akis_kontrolu_ve_donguler.md)
+2. [C# Bellek Modeli, Değer/Referans Tipleri ve Null Güvenliği](02_bellek_tipler_ve_null_guvenligi.md)
 
 ---
 
@@ -24,5 +25,8 @@ Alıştırmalar için → [`../ALISTIRMALAR/`](../ALISTIRMALAR/)
 - **Switch & Pattern Matching:** "C#'ta dolu case'in sonunda break unutulamaz; modern C#'ta switch değer üretir: default yerine `_`, iki nokta yerine `=>` kullanılır."
 - **Döngüler:** "`foreach` okur, gezerken elemanı değiştiremezsin (readonly). `do-while` çıkış kapısındaki güvenliktir; şart ne olursa olsun en az 1 kez çalışır."
 - **Kısa Devre (Short-Circuit):** "`&&` ilk `false`'u, `||` ilk `true`'yu görünce sağ tarafı çöpe atar, çalıştırmaz!"
+- **Bellek & Tipler:** "Değer tipinde fotokopiyi verirsin, orijinal değişmez. Referans tipinde kumandayı verirsin, televizyon (orijinal) değişir!"
+- **Parametreler (ref/out/in):** "`ref` dolu gelir değişebilir; `out` boş gelir, dolu çıkmak zorundadır; `in` bakar ama elleyemez (readonly)!"
+- **Null Güvenliği:** "`?.` sormadan kırmaz, `??` boşsa yedeği koyar, `??=` yoksa doldurur, `!` derleyiciyi susturur ama runtime'ı kandıramaz!"
 
 
