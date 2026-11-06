@@ -9,14 +9,20 @@ Alıştırmalar için → [`../ALISTIRMALAR/`](../ALISTIRMALAR/)
 
 ## 🗂️ Konu Başlıkları
 
-0. [C# 101 (Programlamaya Giriş)](00_csharp_101_temeller.md)
-1. [Akış Kontrolü, Pattern Matching ve Döngüler](01_akis_kontrolu_ve_donguler.md)
-2. [C# Bellek Modeli, Değer/Referans Tipleri ve Null Güvenliği](02_bellek_tipler_ve_null_guvenligi.md)
+0. [.NET Mimarisi ve CLR](00_dotnet_mimarisi_ve_clr.md)
+1. [C# Temelleri (Programlamaya Giriş)](01_csharp_temelleri.md)
+2. [Akış Kontrolü, Pattern Matching ve Döngüler](02_akis_kontrolu_ve_donguler.md)
+3. [C# Bellek Modeli, Değer/Referans Tipleri ve Null Güvenliği](03_bellek_modeli_ve_null_guvenligi.md)
 
 ---
 
 ## 🔑 Hızlı Tekrar: Altın Ezber Cümleleri (Kopya Kağıdı)
 
+- **.NET & CLR:** "C# kodunu çalıştıran sanal motor CLR'dır; CLR'ın yönettiği bellek güvenli koda Managed Code denir."
+- **Derleme Akışı:** "C# derlenince makine kodu değil `IL` (ara dil) ve `Metadata` çıkar. `JIT` bu IL'i çalışma anında makine diline çevirir."
+- **JIT Türleri:** "`Normal JIT` çağırdıkça derler ve saklar, `Pre-JIT` her şeyi baştan derler, `Eco-JIT` hafıza bitince derlediğini siler."
+- **CTS vs CLS:** "`CTS` ortak tipleri tanımlar (`int` = `System.Int32`), `CLS` diller arası iletişimin kurallarını koyar."
+- **csc Parametreleri:** "`/t:library` DLL yapar, `/unsafe` pointer açar."
 - **Yazdırma ve Kaçış:** "`Write` yan yana yazar, `WriteLine` yazıp alt satıra geçer. `$` ile süslü parantez içine değişken gömülür, `@` ile ters slash kaçışları iptal edilir."
 - **Operatörler & Bölme:** "`=` atama yapar, `==` eşit mi diye sorar. `int / int` tam sayı verir; ondalık istiyorsan en az birini `double` yap!"
 - **if-else:** "if'in sonuna noktalı virgül konmaz. Zincirdeki ilk doğru şart çalışır, gerisi atlanır."
