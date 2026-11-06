@@ -1,7 +1,7 @@
-# Bölüm 0: C# 101 (Programlamaya Giriş)
+# Bölüm 1: C# Temelleri (Programlamaya Giriş)
 *(Nesnelere ve döngülere geçmeden önce bilinmesi gereken en temel kavramlar)*
 
-## 0.1) Değişkenler, Yazdırma ve Kaçış Karakterleri
+## 1.1) Değişkenler, Yazdırma ve Kaçış Karakterleri
 
 ```csharp
 int yas = 25;
@@ -33,7 +33,7 @@ Console.WriteLine(@"C:\Kullanicilar\Ahmet\Belgeler");
 
 ---
 
-## 0.2) Operatörler (Aritmetik, Karşılaştırma ve Mantıksal)
+## 1.2) Operatörler (Aritmetik, Karşılaştırma ve Mantıksal)
 
 ```csharp
 // Mod Alma (%) - Kalanı verir
@@ -64,7 +64,7 @@ Console.WriteLine(5 != 4); // true (Eşit DEĞİL mi?)
 
 ---
 
-## 0.3) Temel Şart Blokları (if - else if - else)
+## 1.3) Temel Şart Blokları (if - else if - else)
 
 ```csharp
 int puan = 75;
@@ -89,7 +89,7 @@ else
 
 ---
 
-## 0.4) Kullanıcıdan Veri Alma (Console.ReadLine ve Tür Dönüşümleri)
+## 1.4) Kullanıcıdan Veri Alma (Console.ReadLine ve Tür Dönüşümleri)
 
 ```csharp
 Console.Write("Adınızı girin: ");
@@ -118,7 +118,7 @@ else
 
 ---
 
-## 0.5) Metotların Temeli (void vs return)
+## 1.5) Metotların Temeli (void vs return)
 
 ```csharp
 class Program

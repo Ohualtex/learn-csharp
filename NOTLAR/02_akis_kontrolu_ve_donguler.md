@@ -1,7 +1,7 @@
-# Bölüm 1: Akış Kontrolü, Pattern Matching ve Döngüler
+# Bölüm 2: Akış Kontrolü, Pattern Matching ve Döngüler
 *(Karar mekanizmaları, modern C# switch ifadeleri ve döngü yapıları)*
 
-## 1.1) Klasik switch-case ve C#'a Özgü Fall-Through Kuralı
+## 2.1) Klasik switch-case ve C#'a Özgü Fall-Through Kuralı
 
 C#'ta `switch-case` yapısı diğer dillere (C/C++/Java) kıyasla daha sıkı kurallara sahiptir.
 
@@ -35,7 +35,7 @@ switch (gun)
 
 ---
 
-## 1.2) Modern C# Switch Expressions ve Pattern Matching
+## 2.2) Modern C# Switch Expressions ve Pattern Matching
 
 Modern C# (C# 8.0 ve sonrası), geleneksel hantal switch yapıları yerine çok daha temiz ve fonksiyonel olan **Switch Expression** (`=>`) ve **Pattern Matching** yapısını sunar.
 
@@ -82,7 +82,7 @@ if (veri is string metin)
 
 ---
 
-## 1.3) Döngüler ve Döngü Kırıcılar
+## 2.3) Döngüler ve Döngü Kırıcılar
 
 C#'ta 4 temel döngü bulunur: `for`, `foreach`, `while` ve `do-while`.
 
@@ -127,7 +127,7 @@ do
 
 ---
 
-## 1.4) Ternary Operatörü ve Mantıksal Kısa Devre
+## 2.4) Ternary Operatörü ve Mantıksal Kısa Devre
 
 ```csharp
 // Ternary (Koşul Operatörü ? :)

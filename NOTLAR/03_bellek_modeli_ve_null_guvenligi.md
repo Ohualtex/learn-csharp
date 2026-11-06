@@ -1,7 +1,7 @@
-# Bölüm 2: C# Bellek Modeli, Değer/Referans Tipleri ve Null Güvenliği
+# Bölüm 3: C# Bellek Modeli, Değer/Referans Tipleri ve Null Güvenliği
 *(Stack-Heap ayrımı, ref/out/in niteleyicileri ve modern C# null yönetimi)*
 
-## 2.1) Bellek Modeli: Stack vs Heap & Değer vs Referans Tipleri
+## 3.1) Bellek Modeli: Stack vs Heap & Değer vs Referans Tipleri
 
 .NET çalışma zamanında (CLR) bellek temelde iki ana bölgeye ayrılır: **Stack** ve **Heap**.
 
@@ -41,7 +41,7 @@ Console.WriteLine(o1.Isim); // Değişti (o1 de etkilendi!)
 
 ---
 
-## 2.2) Parametre Niteleyicileri: `ref`, `out` ve `in`
+## 3.2) Parametre Niteleyicileri: `ref`, `out` ve `in`
 
 C#'ta metotlara argümanlar varsayılan olarak **değer kopyasıyla (by value)** aktarılır. Bu davranışı değiştirmek ve referans geçirmek için 3 ana anahtar kelime kullanılır:
 
@@ -97,7 +97,7 @@ if (ParametreOrnekleri.BolmeYap(20, 4, out int bolum))
 
 ---
 
-## 2.3) Modern C# Null Güvenliği ve Operatörleri
+## 3.3) Modern C# Null Güvenliği ve Operatörleri
 
 C# 8.0 ile birlikte gelen **Nullable Reference Types** özelliği, yazılımcıların en büyük kabusu olan `NullReferenceException` (Object reference not set to an instance of an object) hatalarını derleme aşamasında önlemeyi hedefler.
 
