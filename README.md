@@ -16,6 +16,7 @@ C# ve Nesne Yönelimli Programlama (OOP) temellerini örnek kod, konu notları v
 1. **C# Temelleri (Programlamaya Giriş)** ([Notlar](NOTLAR/01_csharp_temelleri.md) | [Alıştırma](ALISTIRMALAR/part01.md))
 2. **Akış Kontrolü, Pattern Matching ve Döngüler** ([Notlar](NOTLAR/02_akis_kontrolu_ve_donguler.md))
 3. **C# Bellek Modeli, Değer/Referans Tipleri ve Null Güvenliği** ([Notlar](NOTLAR/03_bellek_modeli_ve_null_guvenligi.md))
+4. **Diziler ve Generic Koleksiyonlar** ([Notlar](NOTLAR/04_diziler_ve_koleksiyonlar.md))
 
 
 ## Lisans

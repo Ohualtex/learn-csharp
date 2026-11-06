@@ -13,6 +13,7 @@ Alıştırmalar için → [`../ALISTIRMALAR/`](../ALISTIRMALAR/)
 1. [C# Temelleri (Programlamaya Giriş)](01_csharp_temelleri.md)
 2. [Akış Kontrolü, Pattern Matching ve Döngüler](02_akis_kontrolu_ve_donguler.md)
 3. [C# Bellek Modeli, Değer/Referans Tipleri ve Null Güvenliği](03_bellek_modeli_ve_null_guvenligi.md)
+4. [Diziler ve Generic Koleksiyonlar](04_diziler_ve_koleksiyonlar.md)
 
 ---
 
@@ -34,5 +35,11 @@ Alıştırmalar için → [`../ALISTIRMALAR/`](../ALISTIRMALAR/)
 - **Bellek & Tipler:** "Değer tipinde fotokopiyi verirsin, orijinal değişmez. Referans tipinde kumandayı verirsin, televizyon (orijinal) değişir!"
 - **Parametreler (ref/out/in):** "`ref` dolu gelir değişebilir; `out` boş gelir, dolu çıkmak zorundadır; `in` bakar ama elleyemez (readonly)!"
 - **Null Güvenliği:** "`?.` sormadan kırmaz, `??` boşsa yedeği koyar, `??=` yoksa doldurur, `!` derleyiciyi susturur ama runtime'ı kandıramaz!"
+- **Diziler & Boyut:** "Diziler referans tipidir; `.Length` eleman sayısını, `GetUpperBound` son geçerli indeksi verir."
+- **Matris vs Jagged:** "`[,]` tek blokta dikdörtgendir, `[][]` düzensiz dizilerin dizisidir."
+- **params:** "`params` sonda ve tek olur; tam eşleşen metot varsa `params` arka plana atılır."
+- **Index & Range:** "`^1` son elemandır, `[1..4]` 1 dahil 4 hariç dilimler."
+- **ArrayList vs List:** "`ArrayList` her şeyi `object` yaparak kutular (boxing) ve yorar; modern C#'ta tip güvenli `List<T>` kullanılır."
+- **Dictionary:** "Anahtar benzersizdir; doğrudan köşeli parantezle sorma patlarsın, `TryGetValue` ile sor güvenle al!"
 
 
