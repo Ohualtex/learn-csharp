@@ -1,7 +1,7 @@
 # ✍️ ALIŞTIRMALAR — Part 1
 
-Konular Bölüm 0 (C# 101 Temelleri) odaklı ve tuzak içeriklidir. Her sorunun cevabı **hemen altında gizli** — önce kendin çöz, sonra "Cevap"a tıkla.  
-Konu anlatımı için → [`NOTLAR/00_csharp_101_temeller.md`](../NOTLAR/00_csharp_101_temeller.md)
+Konular Bölüm 1 (C# Temelleri) odaklı ve tuzak içeriklidir. Her sorunun cevabı **hemen altında gizli** — önce kendin çöz, sonra "Cevap"a tıkla.  
+Konu anlatımı için → [`NOTLAR/01_csharp_temelleri.md`](../NOTLAR/01_csharp_temelleri.md)
 
 ---
 
