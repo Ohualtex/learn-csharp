@@ -14,6 +14,10 @@ Alıştırmalar için → [`../ALISTIRMALAR/`](../ALISTIRMALAR/)
 2. [Akış Kontrolü, Pattern Matching ve Döngüler](02_akis_kontrolu_ve_donguler.md)
 3. [C# Bellek Modeli, Değer/Referans Tipleri ve Null Güvenliği](03_bellek_modeli_ve_null_guvenligi.md)
 4. [Diziler ve Generic Koleksiyonlar](04_diziler_ve_koleksiyonlar.md)
+5. [Sınıflar, Nesneler ve Kapsülleme](05_siniflar_ve_kapsulleme.md)
+6. [Yapıcı Metotlar (Constructors) ve this Mimarisi](06_yapici_metotlar_ve_this.md)
+7. [Statik Mimari ve Sabitler](07_statik_mimari_ve_sabitler.md)
+8. [Kaynak Yönetimi, Yıkıcılar ve IDisposable](08_kaynak_yonetimi_ve_disposable.md)
 
 ---
 
@@ -41,5 +45,16 @@ Alıştırmalar için → [`../ALISTIRMALAR/`](../ALISTIRMALAR/)
 - **Index & Range:** "`^1` son elemandır, `[1..4]` 1 dahil 4 hariç dilimler."
 - **ArrayList vs List:** "`ArrayList` her şeyi `object` yaparak kutular (boxing) ve yorar; modern C#'ta tip güvenli `List<T>` kullanılır."
 - **Dictionary:** "Anahtar benzersizdir; doğrudan köşeli parantezle sorma patlarsın, `TryGetValue` ile sor güvenle al!"
+- **Sınıf & Nesne:** "Sınıf bir taslaktır bellekte veri alanı tutmaz; nesne ise o taslaktan `new` ile Heap'te doğan canlı varlıktır. `b = a` nesneyi değil, kumandayı (adresi) kopyalar."
+- **Erişim & Kapsülleme:** "Sınıf varsayılan olarak `internal`, üyeleri `private`'tır. Alanları gizleyip Property ile dışarı açmak veri bütünlüğünün garantisidir; accessor kuralında `set` asla property'den geniş olamaz."
+- **init Accessor:** "`init` ile işaretlenen özellikler yalnızca nesne inşa edilirken atanabilir, sonrasında değiştirilemez (Immutable)."
+- **Yapıcı Metot (ctor) Tuzağı:** "Parametreli yapıcı yazıldığı an derleyici varsayılan parametresiz yapıcıyı yok eder; parametresiz üretmek istiyorsan açıkça elle yazacaksın!"
+- **Constructor Chaining (`this(...)`):** "Yapıcılar birbirini `: this(...)` ile çağırarak kod tekrarını önler; zincirde yönlendirilen ana yapıcı gövdesi önce, çağıranın gövdesi en son çalışır."
+- **Statik Kuralı:** "Statik üye nesneye değil tipe aittir (tek kopyadır); statik metot içinden `this` kullanılamaz ve nesne alanları doğrudan çağrılamaz!"
+- **Statik Yapıcı (`static Sınıf()`):** "Statik ctor parametresiz ve belirteçsizdir; sınıfa ilk temasta CLR tarafından tam 1 kez çalıştırılır."
+- **const vs readonly:** "`const` derleme anında koda gömülür ve örtülü statiktir; `readonly` çalışma anında (ctor içinde) değerlenir ve nesneye aittir."
+- **Managed vs Unmanaged:** "Managed kaynakları GC otomatik temizler; dosya, soket ve DB bağlantısı gibi unmanaged kaynakları temizlemek yazılımcının görevidir."
+- **Dispose & SuppressFinalize:** "`IDisposable.Dispose()` kaynakları deterministik (anında) serbest bırakır; `GC.SuppressFinalize(this)` GC'ye 'ben temizledim, finalizer kuyruğuna sokup yorma' der."
+- **using Garantisi:** "`using` arka planda `try-finally`'e derlenir; kod hata fırlatsa dahi `Dispose()` çağrısını garanti eder. Unutma: `Dispose()` dış kaynakları kapatır, RAM'den nesneyi silen ise yalnızca GC'dir!"
 
 
